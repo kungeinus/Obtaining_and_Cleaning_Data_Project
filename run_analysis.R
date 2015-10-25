@@ -73,6 +73,6 @@ total_data_mean<-arrange(total_data_mean,Subject,Activity)
 
 #Combine to build the final datatable and apply names
 
-write.table(total_data_mean,file = "./UCI HAR Dataset/average.txt",row.name=FALSE,sep = ",")
+write.table(total_data_mean,file = "./UCI HAR Dataset/Tidy_data_step5.txt",row.name=FALSE,sep = ",")
 
 #Save the data
